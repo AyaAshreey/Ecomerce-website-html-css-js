@@ -1,0 +1,27 @@
+details {
+    width: 80%;
+    margin: 50px auto;
+    font-size: 22px;
+  
+  }
+  
+  summary {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(65, 105, 225, 0.9);
+  }
+  
+  summary:hover {
+    cursor: pointer;
+  }
+  
+  details p {
+    font-size: 20px;
+    padding: 20px;
+    background-color: rgb(221, 239, 225);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 2px solid rgb(174, 217, 225);
+  }

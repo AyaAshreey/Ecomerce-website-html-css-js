@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Second Section </title>
+
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link rel="stylesheet" href="prism/prism.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="javascript/main.js"></script>
+    <script defer src="javascript/slider.js"></script>
+    <script defer src="javascript/toggle-tabs.js"></script>
+    <script defer src="javascript/validation-form.js"></script>
+    <script defer src="prism/prism.js"></script>
+    <script defer src="/javascript/tootstrab.js"></script>
+</head>
+
+<body id="body">
+    <header id="header" class="myheader">
+        <a href="index.html"> <h1 id="headerh1" >Courses4Arab</h1> </a>
+        
+
+        <nav>
+            <ul class="parent">
+                <li>
+                    <a href="online-store.html"> Online Store </a>
+                </li>
+                <!-- <li><a href="about-us.html"> About Us </a></li> -->
+                <li><a href="slider.html"> Second Section </a></li>
+
+                <li id="dark" class="mode">change mode</li>
+                <li id="changecolor">Change Color
+                    <ul id="hiddenul" style="display: none;">
+                        <li id="headerbg">header BG</li>
+                        <li id="titlebg">title BG</li>
+                        <li id="titlecolor">title color</li>
+                        <li id="sectionbg">section BG</li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main id="main">
+
+
+
+    <section>
+        <h1> TOOTstrab </h1>
+        <div class="myflex">
+            <article class="divcontainer">
+            <a class="focus-a" href="#">
+            <div class="course-box html-box">
+                <div class="number-box number-red">
+                <span class="num"> 1 </span>
+                </div>
+            
+                <h2 lang="ar" dir="rtl" class="html-course course-title">
+                كورس HTML كامل
+                </h2>
+            
+                <p lang="ar" dir="rtl" class="click">
+                كورس HTML كامل
+                <!-- <span role="img"> &#128525; </span> -->
+                </p>
+            
+                <div class="html-container last-two-parts">
+                <span dir="ltr" class="mark"> &lt; &nbsp; /&gt; </span>
+                <h4 class="html-logo bottom-course">HTML</h4>
+                </div>
+            </div>
+            </a>
+            </article>
+        </div>
+
+        <details>
+            <summary dir="rtl" lang="ar"> اكواد الــ HTML </summary>
+            <article class="allCodes">
+                <div class="our-lang">HTML</div>
+                <button class="btn-copy">Copy</button>
+                <pre class="line-numbers "><code class="language-html">&lt;div class=&quot;myflex&quot;&gt;
+        &lt;article class=&quot;divcontainer&quot;&gt;
+            &lt;a class=&quot;focus-a&quot; href=&quot;#&quot;&gt;
+            &lt;div class=&quot;course-box html-box&quot;&gt;
+                &lt;div class=&quot;number-box number-red&quot;&gt;
+                &lt;span class=&quot;num&quot;&gt; 1 &lt;/span&gt;
+                &lt;/div&gt;
+                &lt;h2 lang=&quot;ar&quot; dir=&quot;rtl&quot; class=&quot;html-course course-title&quot;&gt;
+                كورس HTML كامل
+                &lt;/h2&gt;
+                &lt;p lang=&quot;ar&quot; dir=&quot;rtl&quot; class=&quot;click&quot;&gt;
+                كورس HTML كامل
+                &lt;!-- &lt;span role=&quot;img&quot;&gt; &amp;#128525; &lt;/span&gt; --&gt;
+                &lt;/p&gt;
+                &lt;div class=&quot;html-container last-two-parts&quot;&gt;
+                &lt;span dir=&quot;ltr&quot; class=&quot;mark&quot;&gt; &amp;lt; &amp;nbsp; /&amp;gt; &lt;/span&gt;
+                &lt;h4 class=&quot;html-logo bottom-course&quot;&gt;HTML&lt;/h4&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/a&gt;
+        &lt;/article&gt;
+    &lt;/div&gt;
+                    </code></pre>
+            </article> 
+        </details>
+    
+    
+
+        <details>
+            <summary dir="rtl" lang="ar">اكواد الــ CSS</summary>
+            <article class="allCodes">
+                <div class="our-lang">CSS</div>
+                <button class="btn-copy">Copy</button>
+                <pre class="line-numbers "><code class="language-css">:root {
+        --yourColor: #ea336a;
+    }
+    
+    * {
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    
+    .divcontainer {
+        margin-top: 50px;
+    }
+    
+    .myflex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .number-box {
+        text-align: center;
+        padding: 14px 0;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        width: 20rem;
+    }
+    
+    .number-red {
+        background-color: var(--yourColor);
+    }
+    
+    .num {
+        color: #fff;
+        border: 3px solid #fff;
+        padding: 2px 8px;
+    }
+    
+    .html-course {
+        color: var(--yourColor);
+    }
+    
+    .course-title {
+        font-size: 1.7rem;
+        padding: 30px 0 15px 0;
+    }
+    
+    p.click {
+        color: var(--yourColor);
+        font-size: 1.7rem;
+        font-weight: bold;
+        display: none;
+        color: #fff;
+        transform: translateY(-40px);
+    }
+    
+    .course-box:hover p.click {
+        display: block;
+    }
+    
+    .course-box:hover .mark {
+        display: none;
+    }
+    
+    .html-logo {
+        background-color: var(--yourColor);
+    }
+    
+    .bottom-course {
+        color: white;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        padding: 4px 0;
+        margin-top: 19px;
+        border-top: 3px solid #fff;
+    }
+    
+    .mark {
+        font-size: 3.2rem;
+        height: 50px;
+        display: block;
+    }
+    
+    .dark .course-box,
+    .dark .course-title,
+    .dark .last-two-parts {
+        background-color: aliceblue;
+    }
+    
+    .html-container {
+        color: var(--yourColor);
+    }
+    
+    .last-two-parts {
+        font-weight: bolder;
+        font-size: 2.5rem;
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        padding-top: 20px;
+    }
+    
+    .dark .course-box:hover .course-title,
+    .dark .course-box:hover .last-two-parts {
+        background-color: inherit;
+    }
+    
+    .html-box:hover {
+        background-color: var(--yourColor);
+        box-shadow: 0 7px 93px 0 rgba(255, 131, 131, 0.47);
+    }
+    
+    .dark .html-box:hover {
+        background-color: var(--yourColor);
+    }
+    
+    .course-box {
+        border-radius: 8px;
+        box-shadow: 0 0 4px 0 rgba(17, 22, 26, 0.16), 0 2px 4px 0 rgba(17, 22, 26, 0.08), 0 4px 8px 0 rgba(17, 22, 26, 0.08);
+        transition: all 0.4s;
+        text-align: center;
+    }
+    
+    .course-box:hover {
+        animation-name: fade-down;
+        animation-duration: 0.5s;
+    }
+    
+    @keyframes fade-down {
+        0% {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: translate(0);
+        }
+    }
+    
+    @media (max-width: 688px) {
+        .dark .number-box {
+            background-color: aliceblue;
+        }
+    
+        .last-two-parts {
+            padding-top: 0;
+        }
+    
+        .mark {
+            display: none;
+        }
+    
+        .number-box {
+            width: 17rem;
+            background-color: #fff;
+        }
+    
+        .number-red .num {
+            color: var(--yourColor);
+            border-color: var(--yourColor);
+        }
+    
+        .course-box:hover .number-red {
+            background-color: var(--yourColor);
+        }
+    
+        .course-box:hover .num {
+            color: #fff;
+            border-color: white;
+        }
+    
+        .number-red {
+            border-top: 7px solid var(--yourColor);
+        }
+                }</code></pre>
+            </article> 
+        </details>
+
+          
+    </section>
+
+
+
+
+
+
+    <section>
+    <h1 dir="rtl"> Validation Form </h1>
+    <div style="text-align: center; margin-top: 30px;">
+        <button id="createAccount" style="opacity: 1;" class="mybtn"> Create Account </button>
+    </div>
+    
+    <div id="parentOfForm" class="parent-of-form">
+        <form id="formBody" action="action_page.php">
+            <div class="form-container">
+
+                  <h2>  Create Account</h2>
+                  <div id="close">  &#10006;  </div>
+
+                <div class="papa">
+
+                  <label for="username"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="username" id="username" required>
+                  <div class="icon-check-circle"></div>
+                  <p id="usermsg">at least 3 character</p>
+                </div>
+              
+                <div class="papa"> 
+                  <label for="email"><b>Email</b></label>
+                  <input type="email" placeholder="Enter Email" name="email" id="email" required>
+                  <div class="icon-check-circle"></div>
+                  <p id="emailmsg"> please enter a correct email address </p>
+                </div>
+
+                <div class="papa">  
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+                  <div class="icon-check-circle"></div>
+                  <p id="passMsg"> must be at least 8 character 1 Uppercase & 1 number</p>
+
+                </div>
+
+                <div class="papa">  
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" id="pswRepeat" required>
+                  <div class="icon-check-circle"></div>
+                  <p id="repateMsg"> make sure of password </p>
+
+                </div>
+
+
+                  <button disabled type="submit" class="registerbtn" id="regBtn">Register</button>
+                </div>
+              </form> 
+
+    </div>          
+
+    </section>
+
+
+
+
+
+        <section>
+            <h1 dir="rtl"> Toggle Tabs </h1>
+            <div class="allTabs">
+                <button class="mybtn active-btn"> Finland </button>
+                <button class="mybtn"> Denmark </button>
+                <button class="mybtn"> switzerland </button>
+            </div>
+            <div class="parent-all-article">
+                <article class="fun-facts active-article">
+                    <h2> 4 Fun Fact about Finland </h2>
+                <ol>
+                    <li> Finland is the world's happiest country </li>
+                    <li> Finns are the world's biggest coffee drinkers </li>
+                    <li> There are 187,888 lakes in Finland </li>
+                    <li> Most Finnish children have two birthday parties </li>
+
+                </ol>
+                </article>
+
+
+
+                <article class="fun-facts">
+                    <h2> 3 Fun Fact about Denmark </h2>
+                <ol>
+                    <li> Finland is the world's happiest country </li>
+                    <li> Finns are the world's biggest coffee drinkers </li>
+                    <li> There are 187,888 lakes in Finland </li>
+
+                </ol>
+                </article>
+
+
+
+                <article class="fun-facts">
+                    <h2> 5 Fun Fact about switzerland </h2>
+                <ol>
+                    <li> Finland is the world's happiest country </li>
+                    <li> Finns are the world's biggest coffee drinkers </li>
+                    <li> There are 187,888 lakes in Finland </li>
+                    <li> Most Finnish children have two birthday parties </li>
+                    <li> Most Finnish children have two birthday parties </li>
+
+                </ol>
+                </article>
+            </div>   
+
+
+        </section>
+
+
+
+
+        <section>
+            <h1 dir="rtl"> Slider || SlideShow </h1>
+
+            <div id="slidercontainer" class="slider-container">
+               
+            </div>
+
+
+            <div class="num-container">
+                <button id="pre" > &lt; Pre  </button>
+                <div class="numbers">
+    
+                    <button class="active-num mynumber">1</button>
+                    <button class="mynumber">2</button>
+                    <button class="mynumber">3</button>
+                    <button class="mynumber">4</button>
+                    <button class="mynumber">5</button>
+                </div>
+
+                <button id="next">Next &gt; </button>
+            </div>
+
+
+
+        </section>
+
+
+
+
+
+    </main>
+    <footer>
+        <p class="follow">
+            يُمكنك متابعة اخر أخبار الموقع و القناة علي
+
+            <a href=""> الفيسبوك </a>
+        </p>
+
+        <p class="design">Designed and developed by Ali Hassan © 2020</p>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+.parent-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.card{
+    margin-top: 50px;
+}
+.card-img-top{
+    
+    width: 70%;
+    margin: 20px auto 10px;
+}
+.price{
+    color: crimson;
+    font-weight: 500;
+    font-size: 20px;
+}
+.buy-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+/* Javascript Class */
+.done-popup {
+    position: fixed;
+    top: 30px;
+    right: 50%;
+    transform: translateX(50%);
+    transition: all 0.8s;
+
+    background-color: rgb(57, 175, 204);    
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.show-items{
+    position: fixed;
+    top: 3vh;
+    right: 2vw;
+    background-color: royalblue;
+    padding: 12px 8px;
+    border-radius: 3px;
+    color: antiquewhite;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+
+}
+/* ======================= Black Screen===================== */
+.black-screen{
+    background-color: #282A35;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 55; 
+    transform: translateX(-110vw);
+    transition: all 1s;
+}
+.black-screen #close{
+    font-size: 33px;
+}
+.item-container{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
+    background-color: rgb(255,255,255);
+    border-bottom: 4px solid rgb(109,176,222);
+    border-radius: 10px;
+    width: 80vw;
+    margin: 50px auto;
+    color: black;
+}
+.img-title-parent{
+    width: 33%;
+    display: flex;
+    align-items: center;
+}
+.img-title-parent img{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+    margin: 4px 0px 2px 2px ;
+}
+p{
+    margin: 0;
+}
+.input-quantity{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid rgb(109,176,222);
+    border-radius: 5px;
+}
+.price{
+    padding: 7px 8px 0;
+    border-radius: 4px;
+    color: crimson;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* ------Confirm buy------ */
+.confirm-buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.confirm-buy p {
+    margin-right: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+

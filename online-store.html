@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="store.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+
+    <script defer src="javascript/online-store.js"></script>
+    <script defer src="javascript/main.js"></script>
+
+</head>
+<body id="body">
+    
+
+    <header id="header" class="myheader">
+            <h1 id="headerh1"> 
+              <a style="color: #fff; text-decoration: none;" href="index.html"> Courses4Arab </a>
+            </h1>
+          
+            
+            <nav>
+              <ul class="parent">
+                <li>
+                  <a href="online-store.html"> Online Store </a>
+                </li>
+                <!-- <li><a href="about-us.html"> About Us </a></li> -->
+                <li><a href="slider.html">  Second Section </a></li>
+        
+                <li id="dark" class="mode">change mode</li>
+                <li id="changecolor">Change Color
+                  <ul id="hiddenul" style="display: none;">
+                    <li id="headerbg">header BG</li>
+                    <li id="titlebg">title BG</li>
+                    <li id="titlecolor">title color</li>
+                    <li id="sectionbg">section BG</li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+    </header>
+  
+<main>
+    <section>
+    <h1> Online Store </h1>
+    <div class="parent-cards">
+  
+      <div class="card" style="width: 18rem;">
+        <img src="imgs/1.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> black T-shirt</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  
+          <div class="buy-price">
+            <button class="btn btn-primary"> Buy</button>
+            <div class="price"> $10 </div>
+          </div >
+  
+        </div>
+      </div>
+
+
+      
+  
+      <div class="card" style="width: 18rem;">
+        <img src="imgs/2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> Gray T-shirt </h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+          <div class="buy-price">
+            <button class="btn btn-primary"> Buy</button>
+            <div class="price"> $15 </div>
+          </div >
+  
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="imgs/3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">blue T-shirt</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+          <div class="buy-price">
+            <button class="btn btn-primary">Buy</button>
+            <div class="price"> $20 </div>
+          </div >
+  
+        </div>
+      </div>
+  
+      <div class="card" style="width: 18rem;">
+        <img src="imgs/4.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> sleeve black T-shirt</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  
+          <div class="buy-price">
+            <button class="btn btn-primary"> Buy</button>
+            <div class="price"> $30 </div>
+          </div >
+  
+        </div>
+      </div>
+  
+    </div>
+    </section>
+
+    <div id="blackScreen" class="black-screen">
+      <div style="color: #fff;" id="close">  &#10006;  </div>
+
+      <article id="allProducts" class="all-products">
+
+      </article>
+
+
+      <article class="confirm-buy">
+        <div>
+          <p> Total Sum </p>
+          <p id="totalPrice"> $0 </p>
+        </div>
+        <button id="danger" class="btn btn-danger"> Executing the purchase </button>
+      </article>
+
+
+    </div>
+
+</main>
+
+</body>
+</html>
